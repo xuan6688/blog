@@ -1,0 +1,14 @@
+{{extend './common/layout.art'}} {{block 'main'}}
+<div class="container">
+    <div class="info" style="margin-top: 250px;">
+        <p style="font-size: 75px; text-align: center;">400</p>
+        <p class="bg-info" style="font-size: 30px;text-align: center;">{{msg}}</p>
+    </div>
+</div>
+{{/block}} {{block 'script'}}
+<script>
+    setTimeout(function() {
+        location.href = '/admin/login';
+    }, 3000);
+</script>
+{{/block}}

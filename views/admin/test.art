@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>{{user.name}}</title>
+</head>
+
+<body>
+    <h1>抱歉! 您访问的页面失联啦...</h1>
+    <div>
+        <h1>{{user.name}}</h1>
+        <h1>
+            <h2>{{ user.tags.des }}</h2>
+        </h1>
+    </div>
+</body>
+
+</html>
